@@ -1,0 +1,151 @@
+/**/
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+p {
+    margin-bottom: 0.5rem;
+}
+.container-left {
+    width: 50%;
+    background-image: url(../images/nicole.jpg);
+    background-size: cover;
+    background-position: center;
+
+    position: fixed;
+    height: 100%;
+    padding: 2.5rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-right {
+    width: 50%;
+    position: relative;
+    margin-left: 50%;
+    background-color: #f9f9f9;
+    padding-right: 0.375rem;
+}
+
+.logo {
+    display: flex;
+    align-items: flex-start;
+    line-height: 1;
+}
+
+.logo__img {
+    width: 2rem;
+}
+
+.logo__title {
+    padding-left: 1rem;
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.introduction {
+    color: white;
+    background-color: rgba(180, 180, 180, 0.3);
+    text-align: right;
+    padding: 1.5rem;
+    max-width: 550px;
+    align-self: flex-end;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.introduction__word {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.introduction__word2 {
+    font-style: italic;
+
+}
+
+.navigation {
+    display: flex;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    justify-content: flex-end;
+}
+
+
+.navigation__item {
+    padding-left: 1.3rem; 
+}
+
+.heading-page {
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 1.25rem 2rem;
+
+}
+.container-article {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article {
+    border-right: 1px solid #eaeaea;
+    border-top: 1px solid #eaeaea;
+    width: 50%;
+    padding: 2rem;
+}
+
+.article__category {
+    background-color: #DC5E53;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.8em;
+    padding: 0.25rem 0.375rem;
+    border-radius: 4px;
+}
+.article__category--green {
+    background-color: #98DC62;
+
+}
+.article__category--blue {
+    background-color: #0766F0;
+}
+
+.article__name {
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin: 1.5rem 0;
+}
+
+.article__autor {
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.article__author-name {
+    font-weight: 700;
+    padding-right: 0.25rem;
+}
+
+.article__date {
+    color: #999;
+}
+
+.article__img {
+    width: 1.6rem;
+    margin-right: 0.75rem;
+}
+
+.article__link {
+    color: #007bff;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
